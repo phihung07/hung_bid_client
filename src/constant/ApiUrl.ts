@@ -1,6 +1,6 @@
 const ApiUrl = {
     // HOST: 'http://192.168.1.5:3000/api/',
-    HOST: 'https://hung-bid-server.onrender.com/api/',
+    HOST: 'https://hung-bid-server-1.onrender.com/api/',
     PRODUCT: {
         LIST: 'product/list',
         DETAIL: 'product/detail/',
