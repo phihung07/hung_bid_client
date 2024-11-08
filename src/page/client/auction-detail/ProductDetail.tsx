@@ -140,7 +140,7 @@ export const ProductDetail: React.FC<{
                                 <ul className="current-price">
                                     <li>
                                         <h6>Start bid</h6>
-                                        <h6>US ${price}</h6>
+                                        <h6>US ${product.start_price}</h6>
                                     </li>
                                     <li>
                                         <h5>Current bid</h5>
