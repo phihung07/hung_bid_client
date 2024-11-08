@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import logo from '../../../public/law.svg'
+import logo from '../../assets/image/law.svg'
 import { ArrowDropDownIC, SearchIC } from '../../assets/icon'
 
 import dashboard_img from '../../assets/image/dashboard.png'
@@ -10,7 +10,7 @@ import cate_img from '../../assets/image/shape.png'
 import { UseLocalStorage } from '../../util'
 import { SESSION_KEY } from '../../util/UseLocalStorage.ts'
 export default function Navigator() {
-    const onNavClicked = (e : any) => {
+    const onNavClicked = (e: any) => {
         const my_navs = document.getElementsByClassName('my-nav')
         Array.from(my_navs).forEach((nav) => {
             nav.classList.remove('active')
