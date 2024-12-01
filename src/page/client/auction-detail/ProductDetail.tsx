@@ -28,9 +28,7 @@ export const ProductDetail: React.FC<{
     let time_label = ''
     let date_time_bid = null
     const price =
-        product.bids.length > 0
-            ? product.bids[product.bids.length - 1].price
-            : product.start_price
+        product.bids.length > 0 ? product.bids[0].price : product.start_price
     let icon_bid = null
     if (current_date > end_date) {
         //end auction
