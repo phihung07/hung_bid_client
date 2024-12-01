@@ -111,7 +111,7 @@ export const LoginPopup = () => {
                             >
                                 Login
                             </button>
-                            {/* <p className="ptext text-center  mt-2 mb-0 text-white">
+                            <p className="ptext text-center  mt-2 mb-0 text-white">
                                 Don't have an account?
                                 <a
                                     onClick={() => {}}
@@ -119,7 +119,7 @@ export const LoginPopup = () => {
                                 >
                                     Sign up
                                 </a>
-                            </p> */}
+                            </p>
                         </div>
                     </form>
                 </div>

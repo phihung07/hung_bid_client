@@ -29,6 +29,12 @@ export const HomePage = () => {
                                     Participate in bid and get hottest gadgets
                                     on your Ticket Cost.
                                 </p>
+                                <a
+                                    href="https://pixner.net/techbid/techbid/index.html#0"
+                                    className="cmn--btn cd-popup-trigger"
+                                >
+                                    Signup Now
+                                </a>
                             </div>
                         </div>
                         <div
