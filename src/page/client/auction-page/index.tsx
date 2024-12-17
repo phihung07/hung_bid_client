@@ -28,7 +28,7 @@ export const AuctionPage = () => {
     }
 
     useEffect(() => {
-        GetProduct(pageNumber, 10)
+        GetProduct(pageNumber, 9)
     }, [pageNumber])
 
     const OnPageChange = (page: number) => {
@@ -62,7 +62,7 @@ export const AuctionPage = () => {
         }
     }
     const OnRefresh = () => {
-        GetProduct(pageNumber, 10)
+        GetProduct(pageNumber, 9)
     }
 
     return (
