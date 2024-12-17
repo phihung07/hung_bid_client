@@ -37,13 +37,13 @@ export const PersonalProfilePage = () => {
         }
 
         if (!user?.phone) {
-            enqueueSnackbar('Phone is required', { variant: 'warning' })
             is_valid = false
+            enqueueSnackbar('Phone is required', { variant: 'warning' })
         }
 
-        if (!Number(user?.phone)) {
-            enqueueSnackbar('Phone must be number', { variant: 'warning' })
+        if (user?.phone.includes('-')) {
             is_valid = false
+            enqueueSnackbar('Phone is invalid', { variant: 'warning' })
         }
 
         if (!user?.address) {
